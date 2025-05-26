@@ -221,14 +221,14 @@ You have now got an idea of how MLib works. Let us apply these principles in the
 
 
 # Run application locally on 8 cores 
-$ spark-submit --master local[8]  /Users/anurag/hdproject/eclipse/chapt3/transmodel.py 
+$ spark-submit --master local[8]  /Users/anghya/hdproject/eclipse/chapt3/transmodel.py 
  
 # Run on a Spark standalone cluster in client deploy mode 
-$ spark-submit --master spark://spar:7077  /Users/anurag/hdproject/eclipse/chapt3/transmodel.py 
+$ spark-submit --master spark://spar:7077  /Users/anghya/hdproject/eclipse/chapt3/transmodel.py 
  
 # Run on a YARN cluster in YARN client mode 
-export YARN_CONF_DIR=/Users/anurag/Java/hadoop-2.7.1/etc/hadoop 
-$ spark-submit --master yarn-client  /Users/anurag/hdproject/eclipse/chapt3/transmodel.py 
+export YARN_CONF_DIR=/Users/anghya/Java/hadoop-2.7.1/etc/hadoop 
+$ spark-submit --master yarn-client  /Users/anghya/hdproject/eclipse/chapt3/transmodel.py 
 
  
 
