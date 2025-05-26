@@ -1,0 +1,6 @@
+🔧 Requirements:
+Apache Spark and Hadoop installed
+
+PySpark: pip install pyspark
+
+Dataset: CSV with fields like transaction_id, user_id, amount, timestamp
